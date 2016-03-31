@@ -19,5 +19,8 @@ Current variations of code in here are split into 2 main categories.
 The UpperLimits currently write down the last number checked every million checks.
 The Gamblers have yet to be modified to pull in a new lower limit from the UpperLimit files and need to be modified manually.
 
+We now have the Pascal.jl code which accepts an integer argument and returns if that number is Prime or Composite.
+This works on Pascal's Triangle and the AKS Primality test.
+This states that if each coefficient of the polynomial (or the Pth row of Pascal's Triangle) are divisible by the possible Prime P, then P is a Prime number.
 
   
