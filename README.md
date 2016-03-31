@@ -4,12 +4,12 @@ Julia code for integer factorization
 Most of the code in this repo will be dedicated to factorizing large numbers
 Current variations of code in here are split into 2 main categories.
 
-1. UpperLimit
+1. UpperLimit - 
   UpperLimit types work based off of trial division from 1 to n to lower the upper limit
   This works off of the logic that if a number will not divide by x then we can exclude all numbers (n/x : n/(x-1))
   Note: has dimishing returns
 
-2. Gambler
+2. Gambler - 
   Gambler types work off of randomly picking a number and seeing if it divides evenly into n
   Numbers are between the highest checked number in the UpperLimit(a) to the upper limit itself (n/a)
   Seeds in julia are unable to randomly pick very large numbers.
