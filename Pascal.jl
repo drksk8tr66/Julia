@@ -20,6 +20,7 @@ function chk_prime(p, p_row)
 		end
 		if i % p != 0
 			chk = true
+			break
 		end
 	end
 	if chk == true
@@ -37,11 +38,6 @@ p_row = x
 y = chk_prime(p, p_row)
 println(y)
 
-
-
-# outfile = open("Nth_Row.txt","w")
-# write(outfile,string(x) * " is the Nth row of Pascal's Triangle")
-# close(outfile)
 
 
 
