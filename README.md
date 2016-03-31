@@ -3,6 +3,7 @@ Julia code for integer factorization
 
 Most of the code in this repo will be dedicated to factorizing large numbers
 Current variations of code in here are split into 2 main categories.
+
 1. UpperLimit
   UpperLimit types work based off of trial division from 1 to n to lower the upper limit
   This works off of the logic that if a number will not divide by x then we can exclude all numbers (n/x : n/(x-1))
